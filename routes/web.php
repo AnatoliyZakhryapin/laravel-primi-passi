@@ -27,13 +27,13 @@ Route::get('/', function () {
 Route::get('/about', function () {
     
     $about = 'Questo pagina - About';
-    $go_home = 'Go at Home';
+   
     return view('about', compact('about','go_home'));
 })->name('about');
 
 Route::get('/product', function () {
     
     $product = 'Questo pagina - product';
-    $go_home = 'Go at Home';
+ 
     return view('product', compact('product','go_home'));
 })->name('product');;
