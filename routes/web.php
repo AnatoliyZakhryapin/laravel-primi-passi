@@ -28,12 +28,12 @@ Route::get('/about', function () {
     
     $about = 'Questo pagina - About';
    
-    return view('about', compact('about','go_home'));
+    return view('about', compact('about'));
 })->name('about');
 
 Route::get('/product', function () {
     
     $product = 'Questo pagina - product';
  
-    return view('product', compact('product','go_home'));
-})->name('product');;
+    return view('product', compact('product'));
+})->name('product');
