@@ -1,13 +1,13 @@
 <menu>
     <ul>
         <li>
-            <a href="/">home</a>
+            <a href="{{route('home')}}">home</a>
         </li>
         <li>
-            <a href="/about">about</a>
+            <a href="{{route('about')}}">about</a>
         </li>
         <li>
-            <a href="/product">product</a>
+            <a href="{{route('product')}}">product</a>
         </li>
     </ul>
 </menu>
