@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        @include('header-menu')
+    </header>
     <h1>{{ $about }}</h1>
-    <p>
-        <a href="/">{{ $go_home }}</a>
-    </p>
 </body>
 </html>
